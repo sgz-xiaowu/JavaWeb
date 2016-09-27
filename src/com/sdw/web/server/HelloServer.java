@@ -17,6 +17,8 @@ public class HelloServer extends HttpServlet{
         //super.doGet(req, resp);
         //设置响应内容类型
         resp.setContentType("text/html");
+        //解决浏览器中文乱码问题
+        resp.setCharacterEncoding("utf-8");
 
         //设置响应内容
         PrintWriter out = resp.getWriter();

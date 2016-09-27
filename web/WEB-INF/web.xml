@@ -6,20 +6,20 @@
     <display-name>JavaWeb</display-name>
 
     <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>com.sdw.web.HelloWorld</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+    <servlet>
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>com.sdw.web.TestServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>TestServlet</servlet-name>
-        <url-pattern>/servlet/test</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>Helloworld2</servlet-name>
-        <servlet-class>com.sdw.web.Helloworld2</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Helloworld2</servlet-name>
-        <url-pattern>/Helloworld</url-pattern>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>HelloServer</servlet-name>

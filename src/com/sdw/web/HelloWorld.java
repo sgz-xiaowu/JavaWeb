@@ -12,8 +12,8 @@ import java.io.PrintWriter;
 /**
  * Created by shendawei on 16/9/26.
  */
-@WebServlet(name = "Helloworld2")
-public class Helloworld2 extends HttpServlet {
+@WebServlet(name = "HelloWorld")
+public class HelloWorld extends HttpServlet {
 
     private String message;
     @Override
