@@ -1,0 +1,14 @@
+# Java class files
+*.class
+
+# compile files
+artifacts/
+web/WEB-INF/classes/
+
+# Log Files
+*.log
+
+#iml
+*.iml
+.DS_Store
+.idea/
