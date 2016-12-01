@@ -1,10 +1,10 @@
-package com.sdw.web.server.client;
+package com.client.user;
 
-import com.sdw.web.server.UserServiceImpl;
-import com.sdw.web.server.UserServiceImplService;
+import com.api.service.UserServiceImpl;
+import com.api.service.UserServiceImplService;
 
 /**
- * Created by shendawei on 16/9/28.
+ * Created by shendawei on 16/12/1.
  */
 public class UserClient {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 
-package com.sdw.web.server;
+package com.api.service;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

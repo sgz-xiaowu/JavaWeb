@@ -1,5 +1,5 @@
 
-package com.sdw.web.server;
+package com.api.service;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -122,13 +122,4 @@ public class User {
         this.uid = value;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", sex='" + sex + '\'' +
-                ", uid=" + uid +
-                '}';
-    }
 }
