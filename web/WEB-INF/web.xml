@@ -21,12 +21,4 @@
         <servlet-name>TestServlet</servlet-name>
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
-    <servlet>
-        <servlet-name>HelloServer</servlet-name>
-        <servlet-class>com.sdw.web.server.HelloServer</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloServer</servlet-name>
-        <url-pattern>/server/HelloServer</url-pattern>
-    </servlet-mapping>
 </web-app>
